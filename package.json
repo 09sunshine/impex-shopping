@@ -1,0 +1,20 @@
+{
+  "name": "impex-platform",
+  "version": "2.0.0",
+  "description": "IMPEX International Shopping Platform - Node.js Express TypeScript Backend",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix backend install && npm --prefix backend run build",
+    "start": "node backend/dist/index.js",
+    "test": "npm --prefix backend test",
+    "db:migrate": "npm --prefix backend run db:migrate",
+    "db:seed": "npm --prefix backend run db:seed",
+    "backend:dev": "npm --prefix backend run dev",
+    "backend:build": "npm --prefix backend run build",
+    "frontend:dev": "npm --prefix shopping-frontend run dev",
+    "frontend:build": "npm --prefix shopping-frontend run build"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
